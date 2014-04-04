@@ -12,8 +12,8 @@
    
     <!-- ios -->
     <platform name="ios">
-        <js-module src="www/CardIOPGPlugin.js" name="cardIO">
-            <clobbers target="plugin.cardIO" />
+        <js-module src="www/CardIOPGPlugin.js" name="CardIOPGPlugin">
+            <clobbers target="plugin.CardIOPGPlugin" />
         </js-module>
 
         <config-file target="config.xml" parent="/*">
