@@ -27,7 +27,7 @@
         <header-file src="src/ios/CardIO/CardIOPaymentViewControllerDelegate.h" />
         <header-file src="src/ios/CardIO/CardIOView.h" />
         <header-file src="src/ios/CardIO/CardIOViewDelegate.h" />
-        <source-file src="src/ios/CardIO/libCardIO.a" />
+        <source-file src="src/ios/CardIO/libCardIO.a" compiler-flags="-lc++"/>
         
 
    
