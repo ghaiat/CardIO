@@ -12,10 +12,9 @@
    
     <!-- ios -->
     <platform name="ios">
-        <js-module src="www/CardIOPGPlugin.js" name="CardIOPGPlugin">
-            <clobbers target="plugin.CardIOPGPlugin" />
-        </js-module>
+       
 
+        <asset src="www/CardIOPGPlugin.js" target="CardIOPGPlugin.js" />
         <config-file target="config.xml" parent="/*">
             <feature name="CardIOPGPlugin">
               <param name="ios-package" value="CardIOPGPlugin" />
